@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.cat{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1672632826501-f0b82532fc52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+ nav h1 {
+    
+  color: rgb(178, 55, 24); 
+  margin-left: 10px;
+  overflow: hidden;
+  transition: 2s;
+  
+}
+h1:hover{
+    transform: scale(1.3);
+    
+    
+
+
+}
+.sit{
+    width: 40%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.sit a{
+display: flex;
+padding: 10px 20px;
+text-decoration: none;
+color: whitesmoke;
+transition: 0.25s;
+}
+.sit a:hover{
+color: black;
+}
+.harry{
+    margin-top: 70px;
+    font-size: 45px;
+    text-align: center;
+    color: cornsilk;
+} 
+.min img {
+    width: 30vmax;
+    height: 20vmax;
+    margin-left: 450px;
+    margin-top: 26.5px;
+}
+.fan{
+    width: 100%;
+    background-color: rgb(41, 104, 77);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .man {
+    width: 30%;
+    font-size: 20px;
+    color: rgb(64, 8, 14);
+    margin-left: 500px;
+    padding: 20px;
+    
+    
+}  
+.rum{
+    background-color: darkslategrey;
+    border: 5px solid rgb(32, 9, 9);
+    margin: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.maya{
+font-size: 25px;
+align-items: center;
+text-align: center;
+margin: 40px;
+}
+.jon{
+width: 50%;
+font-size: 20px;
+margin-top: 40px;
+margin-left: 320px;
+}
+.lara{
+margin: 60px;
+font-size: 50px;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}.lara a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(18, 18, 254);
+    
+}
+.lara a:hover{
+    background-color: rgb(138, 134, 176);
+    cursor: pointer;
+}
+.gadda{
+    background-color: darkslategrey;
+    border: 5px solid rgb(32, 9, 9);
+    margin: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.musafir{
+font-size: 25px;
+align-items: center;
+text-align: center;
+margin: 40px;
+}
+.muh{
+width: 50%;
+font-size: 20px;
+margin-top: 40px;
+margin-left: 320px;
+}
+.nut{
+    margin: 60px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    }.nut a{
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(18, 18, 254);
+        
+    }
+    .nut a:hover{
+        background-color: rgb(138, 134, 176);
+        cursor: pointer;
+    }
+
+    .meena{
+        background-color: darkslategrey;
+        border: 5px solid rgb(32, 9, 9);
+        margin: 20px;
+        border-radius: 20px;
+        color: whitesmoke;
+    }
+    .geeta{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    }
+    .mohi{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 320px;
+    }
+    .papa{
+        margin: 60px;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+        }.papa a{
+            font-size: 25px;
+            text-decoration: none;
+            color: rgb(18, 18, 254);
+            
+        }
+        .papa a:hover{
+            background-color: rgb(138, 134, 176);
+            cursor: pointer;
+        }
+        .mona{
+            align-items: center;
+            text-align: center;
+            margin: 50px; 
+        }
+        i{
+            font-size: 45px;
+            color: rgb(198, 190, 190);
+            padding: 15px 20px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+        i:hover{
+            background-color: rgb(15, 163, 15);
+            transition: 0.25s;
+        }
+        h4{
+            font-size: 25px;
+            margin: 25px;
+        }
+        p{
+            
+            font-size: 20px;
+            margin: 25px;
+            
+        }
+        .tanu{
+         align-items: center;
+         text-align: center;
+         margin: 50px;
+        }
+        .om{
+            align-items: center;
+            text-align: center;
+            margin: 50px;
+        }
+        .pari{
+            align-items: center;
+            text-align: center;
+            margin: 50px;
+        }
+        .mohit{
+            text-align: center;
+            align-items: center;
+        }
+        .mohit h4{
+            margin: 20px;
+            color: rgb(243, 48, 113);
+        }
+         .mohit h2{
+            margin: 20px;
+            font-weight: 700;
+            font-size: 45px;
+        }
+       .mohit  h3{
+        width: 10%;
+           padding: 10px 20px;
+           color: aliceblue;
+           background-color: rgb(227, 44, 74);
+           border-radius: 20px;
+           margin-left: 550px;
+        }
+        .mohit h5 {
+            
+            width: 30%;
+           font-size: 25px;
+           margin-top: 20px;
+           padding: 10px 10px;
+           color: aliceblue;
+           background-color: rgb(54, 114, 204);
+           border-radius: 20px;
+           margin-left: 425px;
+        }
+           
+        .mohit h1{
+            width: 30%;
+            font-size: 25px;
+        margin-top: 20px;
+            padding: 10px 10px;
+            color: aliceblue;
+            background-color: rgb(54, 114, 204);
+            border-radius: 20px;
+            margin-left: 425px;
+        }
+        .nanu img{
+            width: 20%;
+            height: 20%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            transition: 2s;
+            overflow: hidden;
+        }
+        .moja img{
+            margin-left: 900px;
+        }
+        .nanu:hover img{
+            transform: scale(1.1);
+            
+            
+        }
+        .love img{
+            margin-left: 150px;
+        }
+        .mehul img{
+            margin-left: 900px;
+        }
+        .nihal img{
+            margin-left: 150px;
+        }
+.nattu{
+
+text-align: center;
+align-items: center;
+width: 80%;
+margin: 20px;
+margin-left: 150px;
+padding: 20px 20px;
+border-radius: 30px;
+background-color: rgb(81, 81, 212);
+}
+.mittu i{
+font-size: 25px;
+color: rgb(246, 239, 239);
+padding: 15px 20px;
+background-color: rgb(225, 28, 87);
+border-radius: 50%;
+}
+
+
+
+
+        
